@@ -53,7 +53,7 @@ def post_garbage():
         return
 
     ok = "OK" if res.ok else "FAILURE"
-    threaded_print(f"POSTED [{garbage}]: {ok} - {res.status_code}")
+    threaded_print(f"POSTED {garbage}: {ok} - {res.status_code}")
 
 
 def thread_target():
