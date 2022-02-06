@@ -1,7 +1,12 @@
 from multiprocessing import Lock
 from threading import Thread
 from garbage_generator import random_credentials
-from requests import post
+
+try:
+    from requests import post
+except ImportError:
+    print("You must install the requests module: pip3 install requests")
+    exit()
 
 #
 # CONFIG SECTION ==============================================================
