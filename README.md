@@ -1,6 +1,6 @@
-# python-garbage-truck
+# Python Garbage Truck
 
-A rather simple Python bot with configurable garbage payload for filling scammer databases with meaningless information.
+A rather simple Python bot (dubbed the Garbage Truck) with configurable garbage payload for filling scammer databases with meaningless information.
 
 ### Config
 
